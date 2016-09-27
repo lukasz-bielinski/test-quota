@@ -8,7 +8,6 @@ metadata:
 apiVersion: v1
 kind: ResourceQuota
 metadata:
-  name: compute-resources
   namespace: ns-a
 spec:
   hard:
