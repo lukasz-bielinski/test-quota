@@ -16,3 +16,6 @@ spec:
     requests.cpu: "1"
     memory: "1Gi"
     requests.memory: 1Gi
+
+
+#jakis comment
