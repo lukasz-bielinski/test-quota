@@ -14,7 +14,7 @@ spec:
   hard:
     cpu: "1"
     requests.cpu: "1"
-    memory: "1Gi"
+    memory: "5Gi"
     requests.memory: 1Gi
 
 
