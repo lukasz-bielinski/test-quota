@@ -12,7 +12,7 @@ metadata:
   namespace: ns-a
 spec:
   hard:
-    requests.cpu: "5"
-    requests.memory: 5Gi
-    cpu: "4"
-    memory: "7Gi"
+    cpu: "1"
+    requests.cpu: "1"
+    memory: "1Gi"
+    requests.memory: 1Gi
