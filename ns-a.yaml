@@ -14,5 +14,5 @@ spec:
   hard:
     limits.cpu: "3"
     limits.memory: 5Gi
-    cpu: "4"
+    cpu: "2"
     memory: "7Gi"
