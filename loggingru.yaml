@@ -3,7 +3,9 @@ kind: Namespace
 metadata:
   name: loggingru
 
+
 ------
+
 
 # apiVersion: v1
 # kind: ResourceQuota
