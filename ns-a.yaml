@@ -2,21 +2,21 @@ apiVersion: v1
 kind: Namespace
 metadata:
   name: ns-a
+# 
+# ------
+#
+# apiVersion: v1
+# kind: ResourceQuota
+# metadata:
+#   name: compute-resources
+#   namespace: ns-a
+# spec:
+#   hard:
+#     cpu: "1"
+#     requests.cpu: "1"
+#     memory: "1Gi"
+#     requests.memory: 1Gi
 
-------
-
-apiVersion: v1
-kind: ResourceQuota
-metadata:
-  name: compute-resources
-  namespace: ns-a
-spec:
-  hard:
-    cpu: "1"
-    requests.cpu: "1"
-    memory: "1Gi"
-    requests.memory: 1Gi
 
 
-
-#jakis comment
+##
